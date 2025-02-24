@@ -4,7 +4,7 @@ This Pulumi infrastructure as code (IaC) project deploys a scalable web applicat
 
 This implementation is a C# port of:
 - [TypeScript version](https://github.com/joshuamkite/pulumi-typescript-aws-asg-ec2-webserver)
-- [Python version](https://github.com/joshuamkite/pulumi-python-aws-asg-ec2-webserver)
+- [Python version](https://github.com/joshuamkite/pulumi-aws-asg)
 
 
 # Contents
