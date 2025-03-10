@@ -1,11 +1,12 @@
 # Pulumi C# AWS Auto Scaling Group Webserver
 
-This Pulumi infrastructure as code (IaC) project deploys a scalable web application architecture in AWS using C#. The stack creates an Auto Scaling Group of EC2 instances serving a simple "Hello World" page behind a Load Balancer with optional TLS and DNS configuration.
+This Pulumi infrastructure as code (IaC) project deploys a scalable web application architecture in AWS using C#. The stack creates an Auto Scaling Group of EC2 instances serving a simple "Hello World" page behind a Load Balancer with optional TLS and DNS configuration.  The stack is designed to operate within an existing AWS VPC and utilizes specific subnets and security groups to control traffic. The infrastructure is configured to automatically scale EC2 instances and distribute traffic using the ALB, with optional DNS records managed via Route 53. The instances are managed using AWS Systems Manager (SSM) without the need for SSH access or bastion hosts.
 
 This implementation is a C# port of:
+- [Python version](https://github.com/joshuamkite/pulumi-aws-asg-ec2-webserver)
 - [TypeScript version](https://github.com/joshuamkite/pulumi-typescript-aws-asg-ec2-webserver)
-- [Python version](https://github.com/joshuamkite/pulumi-aws-asg)
-
+- [C# version](https://github.com/joshuamkite/pulumi-csharp-aws-asg-ec2-webserver)
+- [Go version](https://github.com/joshuamkite/pulumi-go-aws-asg-ec2-webserver)
 
 # Contents
 
